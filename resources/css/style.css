@@ -20,8 +20,14 @@ header {
   width: 100%;
 }
 
-.title{
+.logo{
+  display: flex;
+  flex-direction: row;
   color: MediumAquamarine;
+  font-size: 14px;
+}
+
+h1{
   font-size: 14px;
 }
 
