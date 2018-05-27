@@ -1,0 +1,38 @@
+/*Reset*/
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+
+header {
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+}
+
+.title{
+  color: MediumAquamarine;
+  font-size: 14px;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav span{
+  padding: 15px;
+  display: inline-block;
+  color: black;
+
+}
